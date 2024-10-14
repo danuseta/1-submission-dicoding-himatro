@@ -1,0 +1,136 @@
+ @media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #about, #progja, .pengurus-harian {
+        flex: 1 1 100%;
+    }
+
+.pengurus-harian td {
+        padding-left: 5rem;
+    }
+
+    .content-wrapper {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #menuButton {
+      display: block; 
+    }
+    
+    nav ul {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      flex-direction: column;
+      padding: 1rem 0;
+    }
+  
+    nav ul.show {
+      display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    header {
+        position: fixed;
+    }
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .hima-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .home-section {
+        padding: 2rem;
+        padding-top: 80px;
+    }
+
+   .pengurus-harian td {
+        padding-left: 70px;
+    }
+
+    .infohubungi {
+        gap: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .hubungi-item {
+        flex-direction: column;
+        text-align: center;
+    }  
+
+    .hubungi-item i {
+        font-size: 2rem;
+    }
+
+    .hubungi-item p {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .sosialmedia a {
+        color: #fff;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pengurus-harian {
+      padding: 0.75rem;
+    }
+  
+    .pengurus-img {
+      max-width: 120px;
+    }
+  
+    .pengurus-harian td {
+      padding-left: 0.25rem;
+      font-size: 1rem;
+    }
+  }
